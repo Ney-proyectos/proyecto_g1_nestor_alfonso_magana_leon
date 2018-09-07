@@ -1,9 +1,9 @@
 
 body{
     margin: 0;
-    font-family: sans-serif;
+    
 }
-header {
+.menu1 {
     width: 100%;
     background-color: rgb(6, 80, 122);
 }
@@ -11,7 +11,7 @@ header {
     display: none;
 }
 
-header label{
+.menu1 label{
     display: none;
     width: 10%;
     height: 10%;
@@ -19,7 +19,7 @@ header label{
 
 }
 
-header label:hover{
+.menu1 label:hover{
     cursor: pointer;
     background-color: rgba(92, 171, 224, 0.986);
 }
@@ -30,6 +30,7 @@ header label:hover{
     padding: 0;
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
 }
 
 .menu li{
@@ -45,9 +46,11 @@ header label:hover{
     color: #FFF;
     text-decoration: none;
 }
+
+
 /*resposive */
 @media screen and  (max-width: 767px){
-    header label{
+    .menu1 label{
         display: block;
     }
     .menu {
@@ -67,6 +70,57 @@ header label:hover{
         border-top: 1px solid #FFF;
     }
     
+    .cuerpo{
+        width: 100%;
+        margin: auto, 0px;
+    }
+    
+    #inicio{
+        width: 100%;
+    }
+    
+
+
+    
 }
 
+.cuerpo{
+    width: 80%;
+    height: 800px;
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
 
+}
+
+#inicio1{
+   background-color: rgba(84, 186, 218, 0.795);
+   margin-top: 7%;
+   margin-left: 20%;
+   margin-right: 20%;
+   position: absolute;
+   width: 60%;
+   height: 50%;
+   
+}
+.categorias{
+    margin-top: 800px;
+    background-color: black;
+    width: 80%;
+}
+#sec_categorias1{
+    background-color: blueviolet;
+    width: 50%;
+    height: 400px;
+    margin-top: 800px;
+    position: absolute;
+}
+#sec_categorias2{
+    background-color: rgb(216, 83, 83);
+    width: 50%;
+    margin-left: 50%;
+    height: 400px;
+    margin-top: 800px;
+    position: absolute;
+}
